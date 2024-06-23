@@ -1,12 +1,6 @@
 
 {
-  "homepage": "https://chiragpatil98.github.io/Energy_Requirement",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
- }
- 
+  
  "name": "frontend",
   "version": "0.1.0",
   "private": true,
