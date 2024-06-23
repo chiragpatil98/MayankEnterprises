@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className="google-map">
           <LoadScript
-            googleMapsApiKey="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938.1075329165135!2d75.33148326961606!3d19.864051260155595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb987c8b63910f%3A0x75c88cd82528529f!2s51%2C%20Dashmesh%20Nagar%2C%20Jyoti%20Nagar%2C%20Aurangabad%2C%20Maharashtra%20431005!5e0!3m2!1sen!2sin!4v1719155184748!5m2!1sen!2sin"
+            googleMapsApiKey="YOUR_API_KEY"
           >
             <GoogleMap
               mapContainerStyle={containerStyle}
