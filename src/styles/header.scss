@@ -1,0 +1,36 @@
+@import "color";
+
+.nav {
+    // height: 4rem;
+
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(255, 254, 254, 0.299);
+    background-color:#fffa91;
+
+    >div {
+        display: flex;
+        align-items: center;
+        position: static;
+
+        >.svg {
+            color: #4CBB17;
+            font-size: 3rem;
+        }
+        >a{
+            margin: 0 2rem;
+            color:$dark;
+            transition:0.3s;
+
+            &:hover{
+                color:$reddark;
+                border-bottom: 1px solid $red;
+            }
+            >svg{
+                color:$red;
+                transition: inherit;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.about-us {
+  .section-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      background-color: #333;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .introduction {
+    margin-bottom: 40px;
+    .introduction-content {
+      p {
+        font-size: 15px;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #666;
+      }
+    }
+  }
+
+  .missions {
+    margin-bottom: 40px;
+    background: rgb(255, 255, 240);
+    border-bottom: 2px solid yellow;
+    padding: 10px;
+    .missions-content {
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        li {
+          font-size: 15px;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          line-height: 1.6;
+          color: #666;
+          position: relative;
+          padding-left: 20px;
+          &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            color: #87e05d; /* Custom bullet color */
+          }
+        }
+      }
+    }
+  }
+
+  .products-details {
+    background: rgb(255, 255, 240);
+    padding: 10px;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 20px;
+    .products-details-content {
+      .products {
+        ul {
+          list-style-type: none;
+          padding-left: 0;
+          li {
+            font-size: 15px;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #666;
+            position: relative;
+            padding-left: 20px;
+            &:before {
+              position: absolute;
+              left: 0;
+              color: #87e05d; /* Custom bullet color */
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .company-details {
+   
+    .details {
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        li {
+          font-size: 15px;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          line-height: 1.6;
+          color: #666;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 24px;
+    }
+
+    .introduction .introduction-content p,
+    .missions .missions-content ul li,
+    .products-details .products ul li,
+    .company-details .details ul li {
+      font-size: 16px;
+    }
+  }
+}

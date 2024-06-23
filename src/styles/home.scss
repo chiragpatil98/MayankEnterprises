@@ -1,0 +1,81 @@
+@import "color";
+
+.home{
+    height: 110vh;
+    overflow-x: hidden;
+    width:100%;
+    position: static;
+    background-image: url(../assets/wow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   > div{
+        padding-left: 8rem;
+        padding-top: 15rem;
+       > h1{
+            font-size: 3rem;
+            text-transform: uppercase;
+            color:#fffa91;
+            margin: 4px;
+        }
+       >p{
+        font-size: 1rem;
+        color: #970f0f;
+
+       }
+       .text-style{
+        font-size: 20px;
+        letter-spacing:4px;
+        color: #fff;
+        margin-bottom: 10px;
+        // font-weight: bold;
+       
+       }
+       .text-style-product{
+        font-size: 10px;
+        letter-spacing:3px;
+        color: #fff;
+        margin-bottom: 10px;
+        // font-weight: bold;
+       }
+    }
+    >a{
+        display: block;
+        margin:2rem 8rem;
+        width:10rem;
+        background-color:#fffa91;
+        color:#000;
+        text-align: center;
+        border: none;
+        font-size: 1rem;
+        border-radius: 10px;
+        padding: 1rem;
+        cursor:pointer;
+        &:hover{
+              background-color:yellow;
+        }
+    }
+    // &::before{
+    //     content:"";
+       
+    //     position:absolute;
+    //     // margin-left: 55rem;
+    //     // margin-top: 5rem;
+    //     // left:0%;
+    //     // z-index:-1;
+    // }
+}
+@media screen and (max-width:600px){
+    .home{
+        background-color: #222222;
+        height:95vh;
+        background-size: cover;
+        > div{
+            text-align: center;
+            padding-top: 10rem;
+            padding-left: 0rem;
+        }
+       >a{
+        margin: 2rem auto;
+       }
+        }
+    }
